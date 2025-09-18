@@ -3,14 +3,17 @@
 Første Oppgaven var å sette på en statisk IP adresse og pinge mellom vår pi og laptopen vår. Jeg fikk IP adressen 10.200.14.25 og fikk endret det ganske lett ved å gå innit settings på nettverket
 ##Manuel Internett
 <img width="850" height="700" alt="image" src="https://github.com/user-attachments/assets/9b23095b-cd9d-443b-bf83-27411e73a998" />
+
 Her måtte jeg bytte det fra Automatic (DHCP) til Manuel. Her endret jeg adressen, nettmasken og defult gatewayen.
 
 
    ##kjekke ip etter jeg forandret den
 <img width="945" height="339" alt="image" src="https://github.com/user-attachments/assets/0e5b2b2b-5814-4049-8ec0-4ff4d6e20707" /> 
+
 Etter jeg bytta det og lagret gikk jeg inni terminalen og ved å bruke «ip a» fikk jeg vite at min IP adresset ble byttet til 10.200.14.25
 ##Internett før jeg forandra på den
 <img width="850" height="324" alt="image" src="https://github.com/user-attachments/assets/9b654e63-662d-45ec-8ce0-d501af8968c7" />
+
 her er hvordan din adresse ser ut med Automatisk IP adresse
 
 
