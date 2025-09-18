@@ -2,7 +2,7 @@
 
 Første Oppgaven var å sette på en statisk IP adresse og pinge mellom vår pi og laptopen vår. Jeg fikk IP adressen 10.200.14.25 og fikk endret det ganske lett ved å gå innit settings på nettverket
 ##Manuel Internett
-<img width="944" height="783" alt="image" src="https://github.com/user-attachments/assets/9b23095b-cd9d-443b-bf83-27411e73a998" />
+<img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/9b23095b-cd9d-443b-bf83-27411e73a998" />
 Her måtte jeg bytte det fra Automatic (DHCP) til Manuel. Her endret jeg adressen, nettmasken og defult gatewayen.
 
 
