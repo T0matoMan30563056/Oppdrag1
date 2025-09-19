@@ -5,7 +5,11 @@ Første Oppgaven var å sette på en statisk IP adresse og pinge mellom vår pi 
 
 <img width="850" height="700" alt="image" src="https://github.com/user-attachments/assets/9b23095b-cd9d-443b-bf83-27411e73a998" />
 
-Her måtte jeg bytte det fra Automatic (DHCP) til Manuel. Her endret jeg adressen, nettmasken og defult gatewayen.
+Her måtte jeg bytte det fra Automatic (DHCP) til Manuel. Her endret jeg adressen, nettmasken og defult gatewayen. IP adressen din er en unik måte å indentifisere enheten din
+i vår tilfele 10.200.14 er på alle datamaskiner, mens .25 er for å identifisere min egen PC. Din netmask er nærme knyttet til din IP adresse. Netmasken deler opp IP adressen din i to deler, nettverksdel og en vertsdelsidentifikator. nettverksmasken kan en enhet fastslå hvilken del av IP-adressen som identifiserer selve nettverket, og hvilken del som identifiserer den unike verten (enheten) innenfor nettverke. som jeg snakket om før og 10.200.14 som sier det er på kuben, i dette klasserommet, vet den at .25 er min egen PC pga min Netmask.
+
+Vi ogsp har vår Gateway som er en viktig del av dette. Gatewayen fungerer som en knutpunkt mellom vår nettverk og andre nettverker, for å overføre data mellom de, uten dette kunne ikke vår egen nettverk fått til å koble seg til internetet. DNS er en system som overfører menneskevennlige domenenavn, som www.vg.no, til tallbaserte IP-adresser som datamaskiner forstår, for eksempel 193.167.1.2. Dette systemet gjør det mulig for deg å enkelt skrive inn et nettadresse i nettleseren din. det er derfor du kan både søke selve IP adressen til vg.no og navnet vg.no på google og begge av de skal lede til samme sted.
+
 - kjekke ip etter jeg forandret den
 
 <img width="945" height="339" alt="image" src="https://github.com/user-attachments/assets/0e5b2b2b-5814-4049-8ec0-4ff4d6e20707" /> 
