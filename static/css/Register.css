@@ -1,0 +1,21 @@
+#LoginContainer {
+    display: flex;
+    height: 300px;
+    max-width: 500px;
+    margin-left:30%;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+}
+
+input {
+    height: 25px;
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+
+}

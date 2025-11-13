@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <title>LoginPage</title>
+            <link rel="stylesheet" href="/static/css/Login.css">
+        </head>
+    <body >
+        <div id="LoginContainer">
+            <div class="Headline">
+                <h1>Sing in to TheTalk</h1>
+            </div>
+            <div class="Inputs">
+                <form method="POST">
+                    Username:<br>
+                    <input type="text" name="Username" required><br>
+                    Password:<br>
+                    <input type="password" name="Password" required><br><br>
+                    <button type="submit">Login</button>
+                </form>
+
+                 <p>New to TheTalk? <a href="/register">Create an Account</a></p>
+            </div>
+
+        </div>
+        
+    </body>
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='img/bigger.jpg') }}");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</html>
